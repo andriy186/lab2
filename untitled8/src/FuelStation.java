@@ -32,12 +32,12 @@ public class FuelStation {
         return totalRevenue;
     }
 
-    // В класі FuelStation
+    
     public void refuelVehicle(int pumpIndex, int liters) {
         fuelPumps[pumpIndex].refuel(liters);
     }
 
-    // В класі FuelStation
+
     public static void staticMethod() {
         // Динамічна логіка для класу FuelStation
     }
