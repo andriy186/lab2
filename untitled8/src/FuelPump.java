@@ -21,17 +21,13 @@ public class FuelPump {
         return fuelAmount * fuelPrice;
     }
 
-    // В класі FuelPump
     public void refuel(int liters) {
         refuel((double) liters);  // Виклик із новим типом даних
     }
 
-    // В класі FuelPump
     public static void staticMethod() {
         // Динамічна логіка для класу FuelPump
     }
-
-    // В класі FuelPump (або будь-якому іншому)
     public void recursiveMethod(int count) {
         // Базовий випадок для виходу з рекурсії
         if (count <= 0) {
